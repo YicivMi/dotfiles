@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=".git .tmux.conf .zshrc _vimrc"
+files="git tmux.conf zshrc vimrc"
 
 for file in $files; do
    ln -s ~/dotfiles/$file ~/.$file
